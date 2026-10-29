@@ -3,10 +3,10 @@ import { ArrowRightIcon, FacebookIcon, InstagramIcon, MailIcon } from "./Icons";
 import Typewriter from "./Typewriter";
 
 const badges = [
-  { t: "Next.js", cls: "left-0 top-6", d: "0s" },
-  { t: "TypeScript", cls: "-right-4 top-24", d: "0.8s" },
-  { t: "MongoDB", cls: "-left-6 bottom-28", d: "1.4s" },
-  { t: "PostgreSQL", cls: "right-0 bottom-10", d: "0.4s" },
+  { t: "Dji avata 360 Drone", cls: "left-0 top-6", d: "0s" },
+  { t: "Dji air 3", cls: "-right-4 top-24", d: "0.8s" },
+  { t: "Video Editor", cls: "-left-6 bottom-28", d: "1.4s" },
+  { t: "Choreographer", cls: "right-0 bottom-10", d: "0.4s" },
 ];
 
 export default function Hero() {
@@ -65,7 +65,7 @@ export default function Hero() {
             <div className="ring absolute -inset-1.5 rounded-[2rem] opacity-80 blur-sm" />
             <div className="ring absolute -inset-[3px] rounded-[2rem]" />
             <div className="relative overflow-hidden rounded-[1.9rem]" style={{ background: "var(--bg2)" }}>
-              <Image src="/images/headshot.jpg" alt="Portrait of Kallol Dey" width={900} height={1200} priority className="h-full w-full object-cover" />
+              <Image src="/images/abir_img.PNG" alt="Portrait of Rafsan Zaman Abir" width={900} height={1200} priority className="h-full w-full object-cover" />
             </div>
           </div>
           {badges.map((b) => (

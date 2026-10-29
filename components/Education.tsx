@@ -2,10 +2,7 @@ import Reveal from "./Reveal";
 import SectionTitle from "./SectionTitle";
 
 const timeline = [
-  { period: "2026", title: "Complete Web Development Course", org: "Programming Hero", detail: "Certification" },
-  { period: "2023 — 2027 (Expected)", title: "B.Sc. in Computer Science and Engineering", org: "American International University-Bangladesh (AIUB)", detail: "CGPA 3.67" },
-  { period: "2018 — 2020", title: "Higher Secondary Certificate, Science", org: "Udayan Uchcha Madhyamik Bidyalaya", detail: "GPA 5.00" },
-  { period: "2018", title: "Secondary School Certificate, Science", org: "Debidwar Government Reaz Uddin Pilot High School", detail: "GPA 5.00" },
+  { period: "2023 — 2027 (Expected)", title: "B.Sc. in Computer Science and Engineering", org: "American International University-Bangladesh (AIUB)" }
 ];
 
 export default function Education() {
@@ -24,7 +21,6 @@ export default function Education() {
                   <span className="ff-mono text-[12px]" style={{ color: "var(--b)" }}>{t.period}</span>
                   <h3 className="ff-head mt-1 text-lg font-semibold">{t.title}</h3>
                   <p className="c-muted text-sm">{t.org}</p>
-                  <p className="ff-mono c-muted mt-1 text-xs">{t.detail}</p>
                 </div>
               </div>
             </Reveal>

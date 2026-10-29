@@ -1,9 +1,8 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Skills from "@/components/Skills";
-import Projects from "@/components/Projects";
-import Terminal from "@/components/Terminal";
+import Skills from "@/components/RestaurantWork";
+import Projects from "@/components/PersonalWork";
 import Education from "@/components/Education";
 import Hobbies from "@/components/Hobbies";
 import Contact from "@/components/Contact";
@@ -22,7 +21,6 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
-      <Terminal />
       <Education />
       <Hobbies />
       <Contact />
