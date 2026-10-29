@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useState, type MouseEvent } from "react";
 import { projects, type Project } from "@/data/projects";
-import { ExternalLinkIcon, GitHubIcon } from "./Icons";
+import { ExternalLinkIcon, FacebookIcon, } from "./Icons";
 import Reveal from "./Reveal";
 import SectionTitle from "./SectionTitle";
 
@@ -58,7 +58,7 @@ function Card({ p }: { p: Project }) {
             )}
             {p.github && (
               <a href={p.github} target="_blank" rel="noreferrer" aria-label={`${p.name} source code`} className="btn-ghost c-muted relative z-10 rounded-full p-2.5">
-                <GitHubIcon className="h-4 w-4" />
+                <FacebookIcon className="h-4 w-4" />
               </a>
             )}
           </div>

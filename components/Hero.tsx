@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRightIcon, GitHubIcon, LinkedInIcon, MailIcon } from "./Icons";
+import { ArrowRightIcon, FacebookIcon, InstagramIcon, MailIcon } from "./Icons";
 import Typewriter from "./Typewriter";
 
 const badges = [
@@ -41,16 +41,17 @@ export default function Hero() {
             <a href="#projects" className="btn-grad group ff-mono inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm font-medium">
               View projects <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
-            <a href="/resume.pdf" className="btn-ghost c-text ff-mono inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm">
+
+            {/* <a href="/resume.pdf" className="btn-ghost c-text ff-mono inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm">
               Download resume
-            </a>
+            </a> */}
           </div>
 
           <div className="mt-8 flex gap-3">
             {[
-              { h: "https://github.com/kallol-Dey229", I: GitHubIcon, l: "GitHub" },
-              { h: "https://www.linkedin.com/in/kallol-dey067", I: LinkedInIcon, l: "LinkedIn" },
-              { h: "mailto:kalloldey067@gmail.com", I: MailIcon, l: "Email" },
+              { h: "https://www.facebook.com/share/1NESxLrUj2/?mibextid=wwXIfr", I: FacebookIcon, l: "Facebook" },
+              { h: "https://www.instagram.com/rafsan_zaman_abir?cplk=M2kzMmxhNTB3d2Fu&utm_source=qr", I: InstagramIcon, l: "Instagram" },
+              { h: "mailto:@gmail.com", I: MailIcon, l: "Email" },
             ].map(({ h, I, l }) => (
               <a key={l} href={h} target="_blank" rel="noreferrer" aria-label={l} className="glass c-muted rounded-full p-3 transition-all hover:-translate-y-1 hover:text-[var(--b)]">
                 <I className="h-5 w-5" />

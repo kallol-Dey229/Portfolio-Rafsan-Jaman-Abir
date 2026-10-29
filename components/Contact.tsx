@@ -1,13 +1,13 @@
 "use client";
 import { useState, type FormEvent } from "react";
-import { GitHubIcon, LinkedInIcon, MailIcon, PhoneIcon } from "./Icons";
+import { FacebookIcon, InstagramIcon, MailIcon, PhoneIcon } from "./Icons";
 import Reveal from "./Reveal";
 
 const links = [
   { href: "mailto:kalloldey067@gmail.com", I: MailIcon, text: "kalloldey067@gmail.com" },
   { href: "tel:+8801908064940", I: PhoneIcon, text: "+880 1908-064940" },
-  { href: "https://www.linkedin.com/in/kallol-dey067", I: LinkedInIcon, text: "linkedin.com/in/kallol-dey067", ext: true },
-  { href: "https://github.com/kallol-Dey229", I: GitHubIcon, text: "github.com/kallol-Dey229", ext: true },
+  { href: "https://www.instagram.com/rafsan_zaman_abir?cplk=M2kzMmxhNTB3d2Fu&utm_source=qr", I: InstagramIcon, text: "linkedin.com/in/kallol-dey067", ext: true },
+  { href: "https://www.facebook.com/share/1NESxLrUj2/?mibextid=wwXIfr", I: FacebookIcon, text: "github.com/kallol-Dey229", ext: true },
 ];
 
 export default function Contact() {

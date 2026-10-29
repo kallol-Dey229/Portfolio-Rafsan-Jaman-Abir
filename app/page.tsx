@@ -4,7 +4,6 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Terminal from "@/components/Terminal";
-import GitHubActivity from "@/components/GitHubActivity";
 import Education from "@/components/Education";
 import Hobbies from "@/components/Hobbies";
 import Contact from "@/components/Contact";
@@ -24,7 +23,6 @@ export default function Home() {
       <Skills />
       <Projects />
       <Terminal />
-      <GitHubActivity />
       <Education />
       <Hobbies />
       <Contact />
