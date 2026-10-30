@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 
 const links = [
   { href: "#about", label: "About" },
-  { href: "#resturant-videos", label: "Resturant Videos" },
-  { href: "#my-personal-work", label: "My personal work" },
+  { href: "#restaurants", label: "Restaurant Work" },
+  { href: "#personal-work", label: "Personal Work" },
   { href: "#education", label: "Education" },
   { href: "#beyond", label: "Hobbies" },
   { href: "#contact", label: "Contact" },
@@ -58,7 +58,7 @@ export default function Header() {
     <header className="fixed left-0 top-4 z-50 w-full px-4">
       <div className="glass mx-auto flex max-w-4xl items-center justify-between rounded-full px-5 py-2.5 shadow-xl shadow-black/20">
         <a href="#top" className="ff-head text-lg font-bold">
-          K<span className="grad-text">D</span>
+          R<span className="grad-text">Z</span>
         </a>
 
         <nav className="ff-mono hidden gap-1 text-[12.5px] md:flex">

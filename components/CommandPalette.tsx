@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { projects } from "@/data/projects";
 
 type Item = { label: string; hint: string; run: () => void };
 
@@ -15,27 +14,21 @@ export default function CommandPalette() {
   const listRef = useRef<HTMLDivElement>(null);
 
   const items: Item[] = useMemo(
-    () => [
-      { label: "Go to Home", hint: "Section", run: () => go("top") },
-      { label: "Go to About", hint: "Section", run: () => go("about") },
-      { label: "Go to Stack", hint: "Section", run: () => go("stack") },
-      { label: "Go to Projects", hint: "Section", run: () => go("projects") },
-      { label: "Go to Terminal", hint: "Section", run: () => go("terminal") },
-      { label: "Go to GitHub activity", hint: "Section", run: () => go("github") },
-      { label: "Go to Education", hint: "Section", run: () => go("education") },
-      { label: "Go to Hobbies", hint: "Section", run: () => go("beyond") },
-      { label: "Go to Contact", hint: "Section", run: () => go("contact") },
-      { label: "Toggle light / dark theme", hint: "Action", run: () => window.dispatchEvent(new Event("toggle-theme")) },
-      { label: "Download resume", hint: "Action", run: () => open("/resume.pdf") },
-      { label: "Send me an email", hint: "Action", run: () => (window.location.href = "mailto:kalloldey067@gmail.com") },
-      { label: "Open GitHub profile", hint: "Link", run: () => open("https://github.com/kallol-Dey229") },
-      { label: "Open LinkedIn profile", hint: "Link", run: () => open("https://www.linkedin.com/in/kallol-dey067") },
-      ...projects
-        .filter((p) => p.live)
-        .map((p) => ({ label: `Open ${p.name} (live site)`, hint: "Project", run: () => open(p.live!) })),
-    ],
-    []
-  );
+  () => [
+    { label: "Go to Home", hint: "Section", run: () => go("top") },
+    { label: "Go to About", hint: "Section", run: () => go("about") },
+    { label: "Go to Restaurant work", hint: "Section", run: () => go("restaurants") },
+    { label: "Go to Personal work", hint: "Section", run: () => go("personal-work") },
+    { label: "Go to Education", hint: "Section", run: () => go("education") },
+    { label: "Go to Hobbies", hint: "Section", run: () => go("beyond") },
+    { label: "Go to Contact", hint: "Section", run: () => go("contact") },
+    { label: "Toggle light / dark theme", hint: "Action", run: () => window.dispatchEvent(new Event("toggle-theme")) },
+    { label: "Send me an email", hint: "Action", run: () => (window.location.href = "mailto:rafsan.zaman.pro@gmail.com") },
+    { label: "Open Instagram", hint: "Link", run: () => open("https://www.instagram.com/rafsan_zaman_abir") },
+    { label: "Open Facebook", hint: "Link", run: () => open("https://www.facebook.com/share/1NESxLrUj2/?mibextid=wwXIfr") },
+  ],
+  []
+);
 
   const results = items.filter((i) => i.label.toLowerCase().includes(q.toLowerCase()));
 

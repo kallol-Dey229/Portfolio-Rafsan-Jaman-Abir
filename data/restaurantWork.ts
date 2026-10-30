@@ -23,7 +23,7 @@ export const restaurantVideos: RestaurantVideo[] = [
   {
     title: "Cinemetic Shoot",
     client: "AL SHAM",
-    category: "Resturant film",
+    category: "Restaurant film",
     playbackId: "zSTtz6Ob02qGM4JVSew45HeW01FTM7yeX9WeEruDVleOM",
     ratio: "16/9",
     year: "2026",

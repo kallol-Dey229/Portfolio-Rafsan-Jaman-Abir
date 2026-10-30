@@ -54,10 +54,10 @@ const hobbies = [
 ];
 
 const now = [
-  { label: "Watching", value: "Add a film or series" },
-  { label: "Reading", value: "Add a book" },
-  { label: "Playing", value: "Add a game" },
-  { label: "Listening", value: "Add an artist or album" },
+  { label: "Watching", value: "The Secret Life of Walter Mitty" },
+  { label: "Reading", value: "Atomic Habits - James Clear" },
+  { label: "Playing", value: "PUBG Mobile" },
+  { label: "Listening", value: "Happier Than Ever - Billie Eilish" },
 ];
 
 function SceneLabel({ n, light }: { n: string; light?: boolean }) {

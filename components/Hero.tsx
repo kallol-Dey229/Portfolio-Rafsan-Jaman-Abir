@@ -38,7 +38,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <a href="#projects" className="btn-grad group ff-mono inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm font-medium">
+            <a href="#restaurants" className="btn-grad group ff-mono inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-sm font-medium">
               View projects <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
 
@@ -51,7 +51,7 @@ export default function Hero() {
             {[
               { h: "https://www.facebook.com/share/1NESxLrUj2/?mibextid=wwXIfr", I: FacebookIcon, l: "Facebook" },
               { h: "https://www.instagram.com/rafsan_zaman_abir?cplk=M2kzMmxhNTB3d2Fu&utm_source=qr", I: InstagramIcon, l: "Instagram" },
-              { h: "mailto:@gmail.com", I: MailIcon, l: "Email" },
+              { h: "mailto:rafsan.zaman.pro@gmail.com", I: MailIcon, l: "Email" },
             ].map(({ h, I, l }) => (
               <a key={l} href={h} target="_blank" rel="noreferrer" aria-label={l} className="glass c-muted rounded-full p-3 transition-all hover:-translate-y-1 hover:text-[var(--b)]">
                 <I className="h-5 w-5" />

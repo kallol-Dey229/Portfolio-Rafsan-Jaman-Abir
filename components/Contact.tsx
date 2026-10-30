@@ -7,7 +7,7 @@ const EMAIL = "rafsan.zaman.pro@gmail.com";
 
 const links = [
   { href: `mailto:${EMAIL}`, I: MailIcon, label: "Email", text: EMAIL },
-  { href: "tel:+8801908064940", I: PhoneIcon, label: "Call / WhatsApp", text: "+8801716-088918" },
+  { href: "tel:+8801716-088918", I: PhoneIcon, label: "Call / WhatsApp", text: "+8801716-088918" },
   { href: "https://www.instagram.com/rafsan_zaman_abir", I: InstagramIcon, label: "Instagram", text: "@rafsan_zaman_abir", ext: true },
   { href: "https://www.facebook.com/share/1NESxLrUj2/?mibextid=wwXIfr", I: FacebookIcon, label: "Facebook", text: "Facebook profile", ext: true },
 ];
@@ -156,7 +156,7 @@ export default function Contact() {
 
       <div className="relative z-10 mt-20 border-t" style={{ borderColor: "var(--border)" }}>
         <div className="ff-mono c-muted mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 py-6 text-xs sm:flex-row">
-          <p>© {new Date().getFullYear()} Rafsan Jaman Abir · Video Editor & Cinematographer</p>
+          <p>© {new Date().getFullYear()} Rafsan Zaman Abir · Video Editor & Cinematographer</p>
           <p>Bashundhara, Dhaka, Bangladesh</p>
         </div>
       </div>
