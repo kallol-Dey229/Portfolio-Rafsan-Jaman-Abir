@@ -7,10 +7,10 @@ const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
-  title: "Kallol Dey — Full-Stack Software Engineer",
+  title: "Rafsan Zaman Abir — Video Editor & Cinematographer",
   description:
-    "Portfolio of Kallol Dey, a final-year CSE student building full-stack web applications with React, Next.js, TypeScript, NestJS, PostgreSQL, and MongoDB.",
-  keywords: ["Kallol Dey", "Software Engineer", "Full-Stack Developer", "Next.js", "NestJS", "Portfolio"],
+    "Portfolio of Rafsan Zaman Abir, a Professional Video Editor & Cinematographer",
+  keywords: ["Rafsan Zaman Abir", "Video Editor", "Cinematographer", "Portfolio"],
 };
 
 const themeScript = `
