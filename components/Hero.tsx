@@ -31,7 +31,16 @@ export default function Hero() {
             Hi, I&apos;m <span className="grad-text">Rafsan Zaman Abir</span>
           </h1>
           <p className="ff-head mt-4 text-2xl font-medium sm:text-3xl">
-            I do <Typewriter words={["Video Shoot", "Video Editing", "Choreography"]} />
+            Specialising in{" "}
+            <Typewriter
+              words={[
+                "Cinematic Aerials",
+                "Video Editing",
+                "Colour Grading",
+                "Restaurant Films",
+                "Choreography",
+              ]}
+            />
           </p>
           <p className="c-muted mt-6 max-w-xl text-[17px] leading-relaxed">
             Professinal Video Editor, Dhaka, Bangladesh. I turn ideas into real videos. I shoot video with drones and cameras. Worked in verious projects & still working on projects.
