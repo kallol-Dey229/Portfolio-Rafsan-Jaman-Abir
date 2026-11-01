@@ -1,8 +1,8 @@
 export type RestaurantVideo = {
   title: string;
-  client: string;       // restaurant / cafe name
-  category: string;     // e.g. "Aerial", "Food reel", "Brand film"
-  playbackId: string;   // from Mux dashboard → Asset → Playback ID
+  client: string;       
+  category: string;     
+  playbackId: string;   
   ratio: "16/9" | "9/16";
   year?: string;
   tags?: string[];
@@ -22,27 +22,27 @@ export const services = [
 export const restaurantVideos: RestaurantVideo[] = [
   {
     title: "Cinemetic Shoot",
-    client: "AL SHAM",
+    client: "Avantra",
     category: "Restaurant film",
-    playbackId: "zSTtz6Ob02qGM4JVSew45HeW01FTM7yeX9WeEruDVleOM",
+    playbackId: "8Z00XG005M302lb5eQNooLmQB71y6TZzKNPTMjZq9vpZBA",
     ratio: "16/9",
     year: "2026",
     tags: ["DJI Air 3", "DJI Avata 360"],
   },
   {
-    title: "Signature Dish Reel",
-    client: "Cafe Name",
-    category: "Food reel",
-    playbackId: "REPLACE_WITH_MUX_PLAYBACK_ID",
+    title: "Cinemetic Shoot",
+    client: "Hotel Baywatch",
+    category: "Restaurant outdoor",
+    playbackId: "FcHJFDcQDunGRrp99Zh2oEx000100D0002t1nBWHG9inqUx8",
     ratio: "9/16",
     year: "2026",
-    tags: ["Reels", "Macro"],
+    tags: ["DJI Air 3", "DJI Avata 360"],
   },
   {
-    title: "Inside the Dining Room",
-    client: "Restaurant Name",
-    category: "360° walkthrough",
-    playbackId: "REPLACE_WITH_MUX_PLAYBACK_ID",
+    title: "Cinemetic Shoot",
+    client: "AL SHAM",
+    category: "Restaurant film",
+    playbackId: "zSTtz6Ob02qGM4JVSew45HeW01FTM7yeX9WeEruDVleOM",
     ratio: "16/9",
     year: "2026",
     tags: ["Avata 360", "FPV"],
