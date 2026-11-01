@@ -8,6 +8,7 @@ import ScrollUI from "@/components/ScrollUI";
 import CommandPalette from "@/components/CommandPalette";
 import RestaurantWork from "@/components/RestaurantWork";
 import PersonalWork from "@/components/PersonalWork";
+import BeforeAfter from "@/components/Beforeafter";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
         <About />
         <RestaurantWork />
         <PersonalWork />
+        <BeforeAfter />
         <Education />
         <Hobbies />
         <Contact />

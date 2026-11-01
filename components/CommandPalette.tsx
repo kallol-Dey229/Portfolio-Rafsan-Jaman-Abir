@@ -19,6 +19,7 @@ export default function CommandPalette() {
     { label: "Go to About", hint: "Section", run: () => go("about") },
     { label: "Go to Restaurant work", hint: "Section", run: () => go("restaurants") },
     { label: "Go to Personal work", hint: "Section", run: () => go("personal-work") },
+    { label: "Go to Before / After", hint: "Section", run: () => go("before-after") },
     { label: "Go to Education", hint: "Section", run: () => go("education") },
     { label: "Go to Hobbies", hint: "Section", run: () => go("beyond") },
     { label: "Go to Contact", hint: "Section", run: () => go("contact") },
