@@ -3,7 +3,7 @@ import Reveal from "./Reveal";
 import SectionTitle from "./SectionTitle";
 
 const stats = [
-  { value: 50, suffix: "+", label: "Videos edited" },
+  { value: 20, suffix: "+", label: "Videos edited" },
   { value: 4, suffix: "K", label: "Delivery resolution" },
   { value: 2, suffix: "", label: "Drones in the kit" },
   { value: 2, suffix: "+", label: "Years behind the lens", },
