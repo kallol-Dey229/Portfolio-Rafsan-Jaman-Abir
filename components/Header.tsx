@@ -16,7 +16,7 @@ export default function Header() {
   const [active, setActive] = useState("");
   const [theme, setTheme] = useState("dark");
 
-  // Restore saved theme (defaults to dark) and track the active section
+
   useEffect(() => {
     try {
       const saved = localStorage.getItem("theme-v2");
