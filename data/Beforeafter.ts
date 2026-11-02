@@ -1,6 +1,6 @@
 export type BeforeAfterItem = {
   title: string;
-  category: string;       // e.g. "Colour grade", "Stabilisation", "Full edit"
+  category: string;      
   playbackId: string;     
   afterAt: number;        
   ratio: "16/9" | "9/16";
