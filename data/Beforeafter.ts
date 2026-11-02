@@ -1,7 +1,7 @@
 export type BeforeAfterItem = {
   title: string;
   category: string;       // e.g. "Colour grade", "Stabilisation", "Full edit"
-  playbackId: string;     // Mux playback ID of the ONE video (before part, then after part)
+  playbackId: string;     
   afterAt: number;        
   ratio: "16/9" | "9/16";
   description?: string;
