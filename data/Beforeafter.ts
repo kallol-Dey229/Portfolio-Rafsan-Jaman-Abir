@@ -8,8 +8,7 @@ export type BeforeAfterItem = {
   tags?: string[];
 };
 
-// Make one video in your editor: first the ORIGINAL footage, then the FINISHED version.
-// Entries whose playbackId starts with "REPLACE" are hidden automatically.
+
 export const beforeAfterItems: BeforeAfterItem[] = [
   {
   title: "Avantra Restaurant Film",
