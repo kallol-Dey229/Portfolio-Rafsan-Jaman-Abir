@@ -5,7 +5,7 @@ import MuxPlayer from "@mux/mux-player-react";
 import { restaurantVideos, services } from "@/data/restaurantWork";
 import Reveal from "./Reveal";
 import SectionTitle from "./SectionTitle";
-
+//
 const poster = (id: string, w = 1280) =>
   `https://image.mux.com/${id}/thumbnail.jpg?time=2&width=${w}`;
 
