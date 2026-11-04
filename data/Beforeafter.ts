@@ -11,7 +11,7 @@ export type BeforeAfterItem = {
 
 export const beforeAfterItems: BeforeAfterItem[] = [
   {
-  title: "Avantra Restaurant Film",
+  title: "Restaurant Film",
   category: "Restaurant film",
   playbackId: "NIiIVszFkD8024l5pVrBaTHaX5HgwONhCW1TeBp6VBF4",
   afterAt: 8,
@@ -20,11 +20,11 @@ export const beforeAfterItems: BeforeAfterItem[] = [
   tags: ["Avantra", "DJI Air 3", "DJI Avata 360", "Colour grade"],
 },
   {
-    title: "Nature Colour Grade",
+    title: "Colour Grading Process",
     category: "Colour grade",
-    playbackId: "NIiIVszFkD8024l5pVrBaTHaX5HgwONhCW1TeBp6VBF4",
+    playbackId: "9T5wWFhVlhntexjPBzdiMoeeQc026FXbsSybVlGEZG00k",
     afterAt: 8,
-    ratio: "16/9",
+    ratio: "9/16",
     description: "Flat footage first, then the graded result.",
     tags: ["DaVinci Resolve", "Colour grade"],
   }

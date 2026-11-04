@@ -14,12 +14,12 @@ const socials = [
   { h: "mailto:rafsan.zaman.pro@gmail.com", I: MailIcon, l: "Email" },
 ];
 
-const highlights = [
-  { k: "Aerial", v: "Cinematography" },
-  { k: "360°", v: "FPV Flights" },
-  { k: "Edit", v: "& Colour Grade" },
-  { k: "Sound", v: "Design" },
-];
+// const highlights = [
+//   { k: "Aerial", v: "Cinematography" },
+//   { k: "360°", v: "FPV Flights" },
+//   { k: "Edit", v: "& Colour Grade" },
+//   { k: "Sound", v: "Design" },
+// ];
 
 export default function Hero() {
   return (
@@ -60,11 +60,6 @@ export default function Hero() {
             />
           </p>
 
-          <p className="c-muted mt-6 max-w-xl text-[17px] leading-relaxed">
-            I shoot with the DJI Air 3 and Avata 360, then cut, grade and finish every film myself.
-            From restaurant brand films to travel and event stories, I turn ideas into polished
-            videos with a clear look and a reason for every cut.
-          </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
@@ -97,7 +92,7 @@ export default function Hero() {
             ))}
           </div>
 
-          <div
+          {/* <div
             className="mt-10 grid max-w-xl grid-cols-2 gap-x-6 gap-y-4 border-t pt-6 sm:grid-cols-4"
             style={{ borderColor: "var(--border)" }}
           >
@@ -107,7 +102,7 @@ export default function Hero() {
                 <p className="ff-mono c-muted text-[10.5px] uppercase tracking-wider">{h.v}</p>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* ---------- Right: portrait in a viewfinder ---------- */}

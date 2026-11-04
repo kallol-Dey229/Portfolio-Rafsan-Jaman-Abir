@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Education from "@/components/Education";
-import Hobbies from "@/components/Hobbies";
 import Contact from "@/components/Contact";
 import ScrollUI from "@/components/ScrollUI";
 import CommandPalette from "@/components/CommandPalette";
@@ -20,12 +19,11 @@ export default function Home() {
       <CommandPalette />
       <main>
         <Hero />
-        <About />
         <RestaurantWork />
         <PersonalWork />
         <BeforeAfter />
+        <About />
         <Education />
-        <Hobbies />
         <Contact />
       </main>
     </main>

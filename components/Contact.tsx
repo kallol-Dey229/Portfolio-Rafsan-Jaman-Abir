@@ -64,66 +64,6 @@ export default function Contact() {
         </Reveal>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
-          <Reveal>
-            <form onSubmit={onSubmit} className="glass relative space-y-4 rounded-3xl p-6">
-              {/* viewfinder corners */}
-              <span className="pointer-events-none absolute left-3 top-3 h-4 w-4 border-l-2 border-t-2 border-current opacity-30" />
-              <span className="pointer-events-none absolute right-3 top-3 h-4 w-4 border-r-2 border-t-2 border-current opacity-30" />
-              <span className="pointer-events-none absolute bottom-3 left-3 h-4 w-4 border-b-2 border-l-2 border-current opacity-30" />
-              <span className="pointer-events-none absolute bottom-3 right-3 h-4 w-4 border-b-2 border-r-2 border-current opacity-30" />
-
-              <p className="ff-mono c-muted pt-1 text-[11px] uppercase tracking-[0.2em]">Project brief</p>
-
-              <input
-                required
-                placeholder="Your name"
-                value={form.name}
-                onChange={(e) => setForm({ ...form, name: e.target.value })}
-                className={input}
-                style={{ borderColor: "var(--border)" }}
-              />
-              <input
-                required
-                type="email"
-                placeholder="Your email"
-                value={form.email}
-                onChange={(e) => setForm({ ...form, email: e.target.value })}
-                className={input}
-                style={{ borderColor: "var(--border)" }}
-              />
-
-              <div>
-                <p className="ff-mono c-muted mb-2 text-[11px] uppercase tracking-wider">What do you need?</p>
-                <div className="flex flex-wrap gap-2">
-                  {projectTypes.map((t) => (
-                    <button
-                      key={t}
-                      type="button"
-                      onClick={() => setForm({ ...form, type: t })}
-                      className={`ff-mono rounded-full px-3.5 py-1.5 text-xs transition-all ${
-                        form.type === t ? "btn-grad" : "btn-ghost c-muted"
-                      }`}
-                    >
-                      {t}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <textarea
-                required
-                rows={5}
-                placeholder="Location, date, style, what you have in mind..."
-                value={form.message}
-                onChange={(e) => setForm({ ...form, message: e.target.value })}
-                className={input}
-                style={{ borderColor: "var(--border)" }}
-              />
-              <button type="submit" className="btn-grad ff-mono w-full rounded-xl px-5 py-3.5 text-sm font-medium">
-                Send brief
-              </button>
-            </form>
-          </Reveal>
 
           <Reveal delay={150}>
             <div className="flex flex-col gap-3">
@@ -146,7 +86,7 @@ export default function Contact() {
               <div className="glass rounded-2xl px-5 py-4">
                 <p className="ff-mono c-muted text-[10.5px] uppercase tracking-wider">Based in</p>
                 <p className="ff-head mt-1 text-sm font-semibold">
-                  Dhaka, Bangladesh · available for travel shoots
+                  Dhaka, Bangladesh · available for restaurant/resort shoots
                 </p>
               </div>
             </div>
