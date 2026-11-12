@@ -27,15 +27,7 @@ export const restaurantVideos: RestaurantVideo[] = [
     year: "2026",
     tags: ["DJI Air 3", "DJI Avata 360"],
   },
-  {
-    title: "Outdoor & Aerial Showcase",
-    client: "Hotel Baywatch",
-    category: "Outdoor film",
-    playbackId: "FcHJFDcQDunGRrp99Zh2oEx000100D0002t1nBWHG9inqUx8",
-    ratio: "16/9",
-    year: "2026",
-    tags: ["DJI Air 3", "DJI Avata 360"],
-  },
+  
   {
     title: "360° FPV Walkthrough",
     client: "AL SHAM",
@@ -44,5 +36,14 @@ export const restaurantVideos: RestaurantVideo[] = [
     ratio: "16/9",
     year: "2026",
     tags: ["Avata 360", "FPV"],
+  },
+  {
+    title: "Outdoor & Aerial Showcase",
+    client: "Hotel Baywatch",
+    category: "Outdoor film",
+    playbackId: "FcHJFDcQDunGRrp99Zh2oEx000100D0002t1nBWHG9inqUx8",
+    ratio: "16/9",
+    year: "2026",
+    tags: ["DJI Air 3", "DJI Avata 360"],
   },
 ];

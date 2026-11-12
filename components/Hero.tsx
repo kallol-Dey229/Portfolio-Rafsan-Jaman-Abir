@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { ArrowRightIcon, FacebookIcon, InstagramIcon, MailIcon } from "./Icons";
-import Typewriter from "./Typewriter";
 
 const badges = [
   { t: "DJI Avata 360", cls: "-left-6 top-10", d: "0s" },
@@ -12,6 +11,17 @@ const socials = [
   { h: "https://www.facebook.com/share/1NESxLrUj2/?mibextid=wwXIfr", I: FacebookIcon, l: "Facebook" },
   { h: "https://www.instagram.com/rafsan_zaman_abir", I: InstagramIcon, l: "Instagram" },
   { h: "mailto:rafsan.zaman.pro@gmail.com", I: MailIcon, l: "Email" },
+];
+
+const skills = [
+  "Cinematic Aerials",
+  "Restaurant Films",
+  "Corporate Shoot",
+  "documentary",
+  "Storytelling",
+  "Colour Grading",
+  "Video Editing",
+  "Facebook/Instagram Ads"
 ];
 
 // const highlights = [
@@ -47,19 +57,22 @@ export default function Hero() {
             Rafsan Zaman <span className="grad-text">Abir</span>
           </h1>
 
-          <p className="ff-head mt-4 text-2xl font-medium sm:text-3xl">
-            Specialising in{" "}
-            <Typewriter
-              words={[
-                "Cinematic Aerials",
-                "Restaurant Films",
-                "360° FPV",
-                "Colour Grading",
-                "Video Editing",
-              ]}
-            />
-          </p>
-
+          {/* Fixed skills */}
+          <div className="mt-6">
+            <p className="ff-mono c-muted text-[11px] uppercase tracking-[0.25em]">
+              Specialising in
+            </p>
+            <ul className="mt-3 flex max-w-xl flex-wrap gap-2.5">
+              {skills.map((s) => (
+                <li
+                  key={s}
+                  className="glass ff-mono c-text rounded-full px-4 py-2 text-xs transition-all hover:-translate-y-0.5 hover:text-[var(--b)] sm:text-sm"
+                >
+                  {s}
+                </li>
+              ))}
+            </ul>
+          </div>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
