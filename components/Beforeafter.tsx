@@ -1,5 +1,5 @@
 "use client";
-//
+
 import { useRef, useState } from "react";
 import MuxPlayer from "@mux/mux-player-react";
 import Reveal from "./Reveal";
