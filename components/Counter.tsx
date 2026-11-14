@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 export default function Counter({ to, decimals = 0, suffix = "" }: { to: number; decimals?: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
   const [n, setN] = useState(0);
-//
+
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
