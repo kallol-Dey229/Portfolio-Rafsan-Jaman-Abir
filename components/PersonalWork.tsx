@@ -5,7 +5,7 @@ import MuxPlayer from "@mux/mux-player-react";
 import { personalVideos } from "@/data/personalWork";
 import Reveal from "./Reveal";
 import SectionTitle from "./SectionTitle";
-//
+
 const filters = ["All", ...Array.from(new Set(personalVideos.map((v) => v.category)))];
 
 const poster = (id: string, w = 1280) =>
