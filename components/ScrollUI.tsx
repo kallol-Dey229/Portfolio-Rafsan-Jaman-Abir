@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-
+//
 export default function ScrollUI() {
   const [progress, setProgress] = useState(0);
   const glow = useRef<HTMLDivElement>(null);
