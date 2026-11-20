@@ -4,7 +4,7 @@ import { FacebookIcon, InstagramIcon, MailIcon, PhoneIcon } from "./Icons";
 import Reveal from "./Reveal";
 
 const EMAIL = "rafsan.zaman.pro@gmail.com";
-
+//
 const links = [
   { href: `mailto:${EMAIL}`, I: MailIcon, label: "Email", text: EMAIL },
   { href: "tel:+8801716-088918", I: PhoneIcon, label: "Call / WhatsApp", text: "+8801716-088918" },
