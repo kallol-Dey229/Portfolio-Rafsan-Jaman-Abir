@@ -7,7 +7,7 @@ import Reveal from "./Reveal";
 import SectionTitle from "./SectionTitle";
 
 const filters = ["All", ...Array.from(new Set(personalVideos.map((v) => v.category)))];
-//
+
 const poster = (id: string, w = 1280) =>
   `https://image.mux.com/${id}/thumbnail.jpg?time=2&width=${w}`;
 
