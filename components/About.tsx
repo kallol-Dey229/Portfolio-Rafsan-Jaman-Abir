@@ -8,7 +8,7 @@ const stats = [
   { value: 2, suffix: "", label: "Drones in the kit" },
   { value: 2, suffix: "+", label: "Years behind the lens", },
 ];
-
+//
 const gear = [
   {
     name: "DJI Avata 360",
