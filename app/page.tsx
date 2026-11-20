@@ -10,7 +10,7 @@ import PersonalWork from "@/components/PersonalWork";
 import BeforeAfter from "@/components/Beforeafter";
 
 
-//
+
 export default function Home() {
   return (
     <main className="overflow-x-clip">
