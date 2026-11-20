@@ -12,7 +12,7 @@ export default function CommandPalette() {
   const [idx, setIdx] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
-//
+
   const items: Item[] = useMemo(
   () => [
     { label: "Go to Home", hint: "Section", run: () => go("top") },
