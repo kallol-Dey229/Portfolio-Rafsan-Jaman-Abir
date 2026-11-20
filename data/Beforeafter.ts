@@ -8,7 +8,7 @@ export type BeforeAfterItem = {
   tags?: string[];
 };
 
-//
+
 export const beforeAfterItems: BeforeAfterItem[] = [
   {
   title: "Restaurant Film",
